@@ -1,0 +1,37 @@
+{
+  "$schema": "https://raw.githubusercontent.com/grafana/grafana/master/docs/sources/developers/plugins/plugin.schema.json",
+  "type": "panel",
+  "name": "Funnel",
+  "id": "mckn-funnel-panel",
+  "info": {
+    "keywords": ["panel"],
+    "description": "Visualize how data moves through a process",
+    "author": {
+      "name": "mckn"
+    },
+    "logos": {
+      "small": "img/logo.svg",
+      "large": "img/logo.svg"
+    },
+    "links": [
+      {
+        "name": "Website",
+        "url": "https://github.com/mckn/grafana-funnel-panel"
+      },
+      {
+        "name": "License",
+        "url": "https://github.com/mckn/grafana-funnel-panel/blob/master/LICENSE"
+      }
+    ],
+    "screenshots": [{
+      "name": "Overview",
+      "path": "img/panel.png"
+    }],
+    "version": "1.1.2",
+    "updated": "2024-12-13"
+  },
+  "dependencies": {
+    "grafanaDependency": ">=9.2.5",
+    "plugins": []
+  }
+}
